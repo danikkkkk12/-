@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --accent-color: #ffff;
+    --main-header-color: #0075FF;
+    --logo-Ukraine-color: #FFB800;
+    --main-title: #FFC700;
+    font-family: 'Istok Web', sans-serif;
+    font-family: 'Jost', sans-serif;
+}
+.header_menu {
+    display: flex;
+    background-color: #010632;
+}
+
+.Logo_header {
+    text-decoration: none;
+    color: var(--accent-color);
+    font-family: Istok Web;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+}
+
+.span_stand {
+    color: var(--main-header-color);
+}
+
+.span_ukraine {
+    color: var(--logo-Ukraine-color);
+}
+
+.list_items {
+    list-style: none;
+    display: flex;
+    color: var(--accent-color);
+    padding-left: 47px;
+    gap: 47px;
+    font-family: Jost;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
